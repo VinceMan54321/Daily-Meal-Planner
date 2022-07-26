@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-size: 1.5rem;
+}
+
+.logoPicture{
+  height: 14rem;
+  width: 21rem;
+  margin-bottom: 0.5rem;
+}
+
+.dietchoices{
+  padding: 0.25rem;
+}
+
+.dietchoices label{
+  margin: 7px 7px 7px 7px;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+  background-color: rgb(250, 233, 190);
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  margin: 2rem 0 1rem 0;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #17a330;
+  color: rgb(250, 233, 190);
+  border: none;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #146a0a;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.nutrients ul {
+  display: flex;
+  width: 35rem;
+  justify-content: space-evenly;
+}
+
+.meals {
+  display: flex;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 0 1rem;
+  max-width: 300px;
+  box-shadow: 0 4px 8px 2px rgba(77, 77, 77, 0.15);
+}
+
+ul {
+  list-style: none;
+}
+
+.instructions {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: #17a330;
+  color: #f3f3f3;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+a:hover {
+  background-color: #146a0a;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .meals {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nutrients ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.individual-meal {
+  background-color:rgb(248, 250, 226);
+  margin: 1rem;
+  align-items: center;
+}
